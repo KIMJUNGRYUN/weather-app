@@ -1,0 +1,13 @@
+@import "swiper/css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --primary: rgba(37, 36, 34, 1);
+}

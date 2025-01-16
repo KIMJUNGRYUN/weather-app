@@ -1,0 +1,38 @@
+/* 전체 페이지 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eaf4fc; /* 밝은 파란색 배경 */
+  color: #333; /* 기본 글꼴 색상 */
+  text-align: center;
+}
+
+/* 페이지 제목 스타일 */
+h1 {
+  margin: 20px 0;
+  font-size: 2.5rem;
+  color: #2a6ea6; /* 파란색 텍스트 */
+}
+
+/* 날씨 카드 스타일 */
+.weather-card {
+  margin: 20px auto;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff; /* 흰색 배경 */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 가벼운 그림자 */
+}
+
+/* 카드 텍스트 스타일 */
+.weather-card p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* 강조 텍스트 */
+.weather-card strong {
+  color: #2a6ea6; /* 파란색 강조 */
+}
